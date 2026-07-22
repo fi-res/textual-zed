@@ -1,0 +1,11 @@
+id = 'textual'
+name = 'Textual'
+version = '0.1.0'
+schema_version = 1
+authors = ['fi-res']
+description = 'Syntax highlighting for textual CSS'
+repository = 'https://github.com/fi-res/textual-zed'
+
+[grammars.tcss]
+repository = "https://github.com/fi-res/tree-sitter-tcss"
+rev = "0e4ec505fc5ea4718279556499664b14988cd438"
