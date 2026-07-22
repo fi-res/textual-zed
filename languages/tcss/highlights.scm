@@ -1,16 +1,19 @@
-(comment) @comment
+[
+    (comment)
+    (line_comment)
+] @comment
 
 [
-  (tag_selector)
-  (nesting_selector)
-  (universal_selector)
+    (tag_selector)
+    (nesting_selector)
+    (universal_selector)
 ] @tag
 
 
 [
-  ">"
-  (universal_selector)
-  (important)
+    ">"
+    (universal_selector)
+    (important)
 ] @operator
 
 
@@ -19,8 +22,8 @@
 (class_name) @selector.class
 
 (pseudo_class_selector
-  ":"
-  (class_name) @selector.pseudo)
+    ":"
+    (class_name) @selector.pseudo)
 
 (plain_value) @constant.builtin
 
@@ -31,23 +34,23 @@
 (color_value) @string.special
 
 [
-  (integer_value)
-  (float_value)
+    (integer_value)
+    (float_value)
 ] @number
 
 (unit) @type.unit
 
 [
-  ","
-  ":"
-  "."
-  ";"
+    ","
+    ":"
+    "."
+    ";"
 ] @punctuation.delimiter
 
 (id_selector
-  "#" @punctuation.delimiter)
+    "#" @punctuation.delimiter)
 
 [
-  "{"
-  "}"
+    "{"
+    "}"
 ] @punctuation.bracket
