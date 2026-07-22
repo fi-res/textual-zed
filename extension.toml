@@ -8,4 +8,4 @@ repository = 'https://github.com/fi-res/textual-zed'
 
 [grammars.tcss]
 repository = "https://github.com/fi-res/tree-sitter-tcss"
-rev = "ed96c9b19cdd12c10372a0d84095e1c42eedbb13"
+rev = "55bc0aef3ed034e6b3b596196a0965cbc4218738"
