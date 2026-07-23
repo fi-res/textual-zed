@@ -4,6 +4,8 @@
 
 Tree sitter: [tree-sitter-tcss](https://github.com/fi-res/tree-sitter-tcss)
 
+![](screenshot.jpg)
+
 ## Features
  - Syntax highlighting
  - Auto indenation and brackets completion
