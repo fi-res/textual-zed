@@ -27,6 +27,6 @@ git clone https://github.com/fi-res/textual-zed
  - [ ] Inline support (python)
  - [ ] Variable calculation (when hover on variable, show tooltip with actual value)
  - [ ] Color preview (like in VScode builtin)
- - [ ] Type checker
+ - [ ] Language server
  - [ ] Field description and link to docs on hover
  - [ ] Publish extension

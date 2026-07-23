@@ -2,3 +2,4 @@ target
 *.wasm
 grammars
 test.tcss
+test.py
